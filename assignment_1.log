@@ -1,0 +1,74 @@
+Script started on 2024-07-03 22:47:09+05:30 [TERM="xterm-256color" TTY="/dev/tty1" COLUMNS="172" LINES="41"]
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+[?2004h]0;yashmathur@DESKTOP-U91PNLC: ~/coe_assignment[01;32myashmathur@DESKTOP-U91PNLC[00m:[01;34m~/coe_assignment[00m$ touch yash.txt
+[?2004l[?2004h]0;yashmathur@DESKTOP-U91PNLC: ~/coe_assignment[01;32myashmathur@DESKTOP-U91PNLC[00m:[01;34m~/coe_assignment[00m$ ls
+[?2004lassignment_1.log  yash.txt
+[?2004h]0;yashmathur@DESKTOP-U91PNLC: ~/coe_assignment[01;32myashmathur@DESKTOP-U91PNLC[00m:[01;34m~/coe_assignment[00m$ ls -l ay[K[Kyash.txt
+[?2004l-rw-r--r-- 1 yashmathur yashmathur 0 Jul  3 22:49 yash.txt
+[?2004h]0;yashmathur@DESKTOP-U91PNLC: ~/coe_assignment[01;32myashmathur@DESKTOP-U91PNLC[00m:[01;34m~/coe_assignment[00m$ chmod 5[K755 yash.txt
+[?2004l[?2004h]0;yashmathur@DESKTOP-U91PNLC: ~/coe_assignment[01;32myashmathur@DESKTOP-U91PNLC[00m:[01;34m~/coe_assignment[00m$ ls -l yash.txt
+[?2004l-rwxr-xr-x 1 yashmathur yashmathur 0 Jul  3 22:49 [0m[01;32myash.txt[0m
+[?2004h]0;yashmathur@DESKTOP-U91PNLC: ~/coe_assignment[01;32myashmathur@DESKTOP-U91PNLC[00m:[01;34m~/coe_assignment[00m$  [Kuseradd shubhma[K[K[K[K[K[K[K-m tushar
+[?2004luseradd: Permission denied.
+useradd: cannot lock /etc/passwd; try again later.
+[?2004h]0;yashmathur@DESKTOP-U91PNLC: ~/coe_assignment[01;32myashmathur@DESKTOP-U91PNLC[00m:[01;34m~/coe_assignment[00m$ sudo useradd -m tushar
+[?2004l[sudo] password for yashmathur: 
+[?2004h]0;yashmathur@DESKTOP-U91PNLC: ~/coe_assignment[01;32myashmathur@DESKTOP-U91PNLC[00m:[01;34m~/coe_assignment[00m$ cat /etc/passwd
+[?2004lroot:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/run/ircd:/usr/sbin/nologin
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-network:x:100:102:systemd Network Management,,,:/run/systemd:/usr/sbin/nologin
+systemd-resolve:x:101:103:systemd Resolver,,,:/run/systemd:/usr/sbin/nologin
+messagebus:x:102:105::/nonexistent:/usr/sbin/nologin
+systemd-timesync:x:103:106:systemd Time Synchronization,,,:/run/systemd:/usr/sbin/nologin
+syslog:x:104:111::/home/syslog:/usr/sbin/nologin
+_apt:x:105:65534::/nonexistent:/usr/sbin/nologin
+uuidd:x:106:112::/run/uuidd:/usr/sbin/nologin
+tcpdump:x:107:113::/nonexistent:/usr/sbin/nologin
+yashmathur:x:1000:1000:,,,:/home/yashmathur:/bin/bash
+tushar:x:1001:1001::/home/tushar:/bin/sh
+[?2004h]0;yashmathur@DESKTOP-U91PNLC: ~/coe_assignment[01;32myashmathur@DESKTOP-U91PNLC[00m:[01;34m~/coe_assignment[00m$  sudo passwd tushar
+[?2004lNew password: 
+Retype new password: 
+passwd: password updated successfully
+[?2004h]0;yashmathur@DESKTOP-U91PNLC: ~/coe_assignment[01;32myashmathur@DESKTOP-U91PNLC[00m:[01;34m~/coe_assignment[00m$ sw[Ku - [K tushar
+[?2004lPassword: 
+Welcome to Ubuntu 22.04.3 LTS (GNU/Linux 4.4.0-19041-Microsoft x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+This message is shown once a day. To disable it please create the
+/home/tushar/.hushlogin file.
+$ 
+[?2004h]0;yashmathur@DESKTOP-U91PNLC: ~/coe_assignment[01;32myashmathur@DESKTOP-U91PN
+Script started on 2024-07-03 23:00:18+05:30 [TERM="xterm-256color" TTY="/dev/tty2" COLUMNS="172" LINES="41"]
+[?2004h]0;yashmathur@DESKTOP-U91PNLC: ~/coe_assignment[01;32myashmathur@DESKTOP-U91PNLC[00m:[01;34m~/coe_assignment[00m$ chmod [K[K[K[K[K[Ksudo chmod [K[K[K[Kown tushar yash.txt
+[?2004l[sudo] password for yashmathur: 
+[?2004h]0;yashmathur@DESKTOP-U91PNLC: ~/coe_assignment[01;32myashmathur@DESKTOP-U91PNLC[00m:[01;34m~/coe_assignment[00m$ ls -l yash.txt
+[?2004l-rwxr-xr-x 1 tushar yashmathur 0 Jul  3 22:49 [0m[01;32myash.txt[0m
+[?2004h]0;yashmathur@DESKTOP-U91PNLC: ~/coe_assignment[01;32myashmathur@DESKTOP-U91PNLC[00m:[01;34m~/coe_assignment[00m$ chgrp tush[K[K[K[K[K[K[K[K[K[Ksudo chgrp tushat [K[Kr yash.tt[Kxt
+[?2004l[?2004h]0;yashmathur@DESKTOP-U91PNLC: ~/coe_assignment[01;32myashmathur@DESKTOP-U91PNLC[00m:[01;34m~/coe_assignment[00m$ ls-l[K[K -l yash.txt
+[?2004l-rwxr-xr-x 1 tushar tushar 0 Jul  3 22:49 [0m[01;32myash.txt[0m
+[?2004h]0;yashmathur@DESKTOP-U91PNLC: ~/coe_assignment[01;32myashmathur@DESKTOP-U91PNLC[00m:[01;34m~/coe_assignment[00m$ [?2004l
+exit
+
+Script done on 2024-07-03 23:02:01+05:30 [COMMAND_EXIT_CODE="0"]
